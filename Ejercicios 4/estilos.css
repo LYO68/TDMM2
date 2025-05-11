@@ -1,0 +1,291 @@
+html{
+    background-color: aquamarine;
+}
+
+/* TODO ESTO ES ENCABEZADO */
+header{
+background-color: grey;
+color: white;
+display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+  margin: 2%; 
+  border-radius: 10px; 
+}
+
+.medio{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow:1;
+    
+}
+
+.grupo{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: start ;
+    align-items: center;
+    flex-grow: 1;
+    gap: 2%;
+    margin-left: 2%;
+    
+
+}
+
+.cont{
+    background-color: white;
+    width: 15%;
+    height: 40px;
+    
+}
+
+
+header img{
+    border-radius: 100%;
+    width: 60px;
+   margin-right: 2%;
+}
+
+/*  ACA EMPIEZA EL MEDIO UNO  */
+
+.general{
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 1000px;
+    border-radius: 10px;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+    flex-wrap: wrap;
+    gap:3% ;
+}
+
+.cuadrado{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 40%;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.txt{
+   width: 2%;
+   height: 1%;
+    margin-left: 5%;
+
+}
+
+#img1{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+#img2{
+   width: 100%;
+  height: 50%;
+}
+
+
+#img3{
+    width: 90%;
+    height: 40%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+#tercero{
+ border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+ 
+}
+
+.imgredondo{
+    width: 25%;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+    margin-top: 10%;
+}
+
+/* ACA EMPIEZA EL MEDIO DOS */
+
+.medio2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    margin: 2%;
+}
+
+.miderecha{
+    background-color: gray;
+    color: white;
+    width: 48%;
+    height: 1000px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+#cincuenta{
+    background-color: white;
+    width: 94%;
+    height: 47%;
+    margin-top: 3%;
+
+}
+
+#veinticinco1{
+    background-color: white;
+    width: 94%;
+    height: 22%;
+    margin-top: 3%;
+
+}
+
+#veinticinco2{
+    width: 94%;
+    height: 22%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5%;
+}
+
+.cuadtxt{
+    background-color: white;
+    width: 30% ;
+    height: 100%;
+    
+}
+
+.mizquierda{
+    width: 48%;
+    height: 810px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+#fondo{
+    background-color: gray;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+#primeromed{
+    background-color: white;
+    color: white;
+    width: 94%;
+    height: 90%;
+    margin-top: 3%;
+    margin-left: 3%;
+
+}
+
+#fondo2{
+     background-color: gray;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#segundomed{
+    background-color: gray;
+    color: gray;
+    margin-top: 5%;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 50%;
+    height: 50% ;
+    
+    
+   
+
+    
+    
+
+}
+
+
+
+/* ACA EMPIEZA EL PIE DE PAGINA */
+
+.pie{
+background-color: gray;
+margin-top: 10%;
+height: 180px;
+border-radius: 20px;
+display: flex;
+flex-direction:row;
+justify-content: space-between;
+align-items: center;
+}
+.imgpie{
+    width: 7%;
+    border-radius: 100%;
+}
+#titpie{
+    background-color: grey;
+    color: gray;
+   width: 50%;
+   height: 50%;
+    margin-left: 4%;
+}
+
+.piederecha{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8%;
+    margin-left:3%;
+}
+
+.pieizq{
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: end;    
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    
+}
