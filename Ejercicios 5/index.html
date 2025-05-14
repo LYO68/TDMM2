@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Formulario</h1>
+
+    <form id="formulario">
+        <label for="Nombre">Nombre:</label>
+        <input type="text" name="Nombre" id="nombre" placeholder="Escribi tu Nombre" required=true>
+        <br>
+        <br>
+       <label for="Edad">Edad:</label>
+        <input type="number" name="Edad" id="edad" placeholder="ej: 20" required=true>
+        <br>
+        <br>
+        <label for="Email">Email:</label>
+        <input type="email" name="Email" id="email" placeholder="ejemplo@gmail.com" required=true>
+        <br>
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="Enviar" id="enviar">
+
+
+
+
+
+    </form>
+
+<section class="oculto" id="feedback">
+ <p> Gracias <span id="nombre-placeholder"></span></p> por completar el formulario, se te enviara un mail a <span id="email-placeholder"></span></p> con la informacion que solicitaste.
+</section>
+
+
+
+    <script src="./script.js"> </script>
+</body>
+</html>
