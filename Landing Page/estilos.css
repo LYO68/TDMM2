@@ -1,0 +1,77 @@
+/* esto es lo general */
+
+html{ 
+    background-color: white;
+}
+
+body{
+    margin: 0%;
+
+}
+
+/*Titulo cinefilos y fondo*/
+
+header{
+    
+    background-color: #14141b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+
+}
+
+header img{
+    height: 60%;
+    width: 30%;
+    
+}
+
+/*Primera parte hasta el CTA*/
+
+.inicio{
+    height: 91vh;
+    background-image: url(imginicio.png) ;
+    background-image: linear-gradient();
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center
+
+}
+
+.inicio h1{
+    background-color: black;
+    color: white;
+    margin: 5%;
+    display: flex;
+    text-align: center;
+}
+
+.inicio h2{
+    color: white;
+    margin: 5%;
+    display: flex;
+    text-align: center;
+}
+
+.inicio p {
+    background-color: #ffcf40;
+    font-size: large;
+    padding: 3%;
+    margin: 5%;
+    border-radius: 10px;
+}
+
+.sepin{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30%;
+
+}
+
