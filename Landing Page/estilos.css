@@ -52,6 +52,10 @@ header img{
     text-align: center;
 }
 
+.inicio h1:hover{
+    color: #ffcf40;
+}
+
 .inicio h2{
     color: white;
     margin: 5%;
