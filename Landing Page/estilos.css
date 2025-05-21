@@ -74,6 +74,10 @@ header img{
     text-decoration: none;
 }
 
+.botoninicio:visited {
+  color: #1f1f1f;
+}
+
 .botoninicio:hover {
     background-color: #e84141;
     color:white;
