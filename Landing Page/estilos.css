@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
-/* esto es lo general */
+/* Esto es lo general */
 
 html{ 
     background-color: white;
@@ -180,6 +180,87 @@ header img{
 
 
 
+.oculto{
+    display: none !important;
+   
+}
+ 
+
+#feedback {
+  background-color: #f8f9fa;
+  border: 2px solid #007bff;
+  padding: 20px;
+  margin: 30px auto;
+  width: 80%;
+  border-radius: 10px;
+  font-size: 1.2em;
+  color: #212529;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  position: relative;
+  z-index: 1001
+}
+
+
+
+/*Footer*/
+
+
+footer{
+    background-color: #14141b;
+    margin-top: 50%;
+}
+
+.footerimg{
+    width: 7%;
+    background-color: white;
+    background-size: 20%;
+    border-radius: 50%;
+
+    
+}
+
+nav{
+    margin: 5%;
+    border-bottom: 1px solid #7E7E7E ;
+}
+
+.todooscuro{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;     
+  height: 100vh;     
+  background-color: rgba(0, 0, 0, 0.7); 
+  z-index: 999;
+}
+
+footer h5{
+    color: #858585;
+}
+
+.seguinos{
+color: #ffcf40;
+}
+
+.redessociales{
+    color: #d4d4d4;
+}
+
+#columimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.imgtxt{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    text-align: center;
+}
 .oculto{
     display: none !important;
    
