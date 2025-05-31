@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
 
-/* Esto es lo general */
 
+/* Esto es lo general */
 
 
 html{ 
@@ -11,14 +11,11 @@ html{
 
 
 body{
-    margin: 0%;
-    
+    margin: 0%;    
 }
 
 
-
 /*Titulo cinefilos y fondo*/
-
 
 
 header{
@@ -29,18 +26,14 @@ header{
     align-items: center;
     width: 100%;
     height: 70px;
-
 }
 
 header img{
-    height: 60%;
-    
+    height: 60%;    
 }
 
 
-
 /*Primera parte hasta el CTA*/
-
 
 
 .separar{
@@ -64,16 +57,15 @@ header img{
 
 .inicio{
     height: 84vh;
-    background-image: url(imginicio.png) ;
-    background-size:cover;
+    background-image: url(imginicio.png);
+    background-size: cover;
     background-position: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; 
     font-family: "Raleway", sans-serif;  
-    font-weight:900;
-    
+    font-weight: 900;
 }
 
 .inicio h1{
@@ -83,7 +75,6 @@ header img{
     margin: 5%;
     display: flex;
     text-align: center;
-   
 }
 
 .inicio h1:hover{
@@ -105,7 +96,7 @@ header img{
     border-radius: 5px;
     text-decoration: none;  
     font-family: "Raleway", sans-serif; 
-    padding:15%;
+    padding: 15%;
 }
 
 .botoninicio:hover {
@@ -120,8 +111,7 @@ header img{
     align-items: center;
     margin-top: 30%;
     font-family: "Raleway", sans-serif;  
-    font-weight:900;
-
+    font-weight: 900;
 }
 
 .conseguir{
@@ -130,15 +120,11 @@ header img{
     justify-content: center;
     align-items: center;
     margin-top: 17%;
-    font-weight: 500;
-    
-    
+    font-weight: 500;    
 }
 
 
-
 /*SECCIONES HASTA EL FORMULARIO*/
-
 
 
 .seccion-contenido {
@@ -165,15 +151,13 @@ header img{
 
 .columna-texto,
 .columna-imagen {
-  width: 100%;
-  
+  width: 100%; 
 }
 
 .sizeicon{
   width: 30%;
   margin-left: 35%;
 }
-
 
 #separarfin{
      width: 100vw;         
@@ -190,7 +174,7 @@ header img{
     background-color:#ffcf40;
     color: black;
     text-align: center;
-    margin-top: 20% ;
+    margin-top: 20%;
 }
 
 .parrafo{
@@ -200,60 +184,48 @@ header img{
     margin: 5%;
 }
 
-
 .imgabajo,
 .d-block{
     width: 100%;
-    border-style:solid ;
+    border-style: solid;
     border-width: 12px;
-    border-color:#ffcf40 ;
-    border-radius: 10px;
-    
+    border-color:#ffcf40;
+    border-radius: 10px;   
 }
-
 
 .carousel{
     width: 100%;
-    
 }
 
 .carousel-caption{
     height: 35%;
-    font-size: 14px;
-    
+    font-size: 14px;    
 }
-
 
 
 /*Formulario*/
 
 
-
 #hacerform{
-    
     background-image: url(fondo2.png);
-    background-size:cover ;
+    background-size:cover;
     background-position: 50%;
     height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: center ;
+    justify-content: center;
     align-items: center;
    padding-bottom: 40%;
 }
 
 #verform {
-    
-    border-radius: 2% ;
+    border-radius: 2%;
     margin-bottom: 50%;
-    
-    
-   
 }
 
 #iraform{
     background-color: #ffcf40;
-    position:initial;
+    position: initial;
 }
 
 #hacerform h5{
@@ -268,7 +240,6 @@ header img{
     border-color: black;
     border-width: 1px;
     border-radius: 2%;
-   
 }
 
 #enviarboton{
@@ -285,21 +256,16 @@ header img{
     background:rgba(0, 0, 0, 0);
     border-style: none;
     font-weight: 600;
-
 }
 
 #enviarboton:hover{
 background-color: #e84141;
 color: black;
-
-
 }
 
 .oculto{
-    display: none !important;
-   
+    display: none !important;  
 }
- 
 
 #feedback {
   background-color: #f8f9fa;
@@ -312,8 +278,6 @@ color: black;
   text-align: center;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   z-index: 1001;
-  
-  
 }
 
 .todooscuro{
@@ -335,7 +299,6 @@ color: black;
     width: 100%;
     font-size: x-large;
     border-radius: 30px;
-    
 
 }
 
@@ -346,15 +309,13 @@ color: black;
 }
 
 #volver{
-    width:8%;
+    width: 8%;
     display: flex;
     margin-left: 90%;
 }
 
 
-
 /*Footer*/
-
 
 
 footer{
@@ -364,7 +325,7 @@ footer{
 }
 
 footer nav{
-     border-bottom: 1px solid #858585 ;
+     border-bottom: 1px solid #858585;
      margin: 0%;
     margin-top: 10%;
 }
@@ -396,7 +357,6 @@ margin-left: 3%;
 
 .redessociales{
     color: #d4d4d4;
- 
 }
 
 .imgtxt{
@@ -405,22 +365,19 @@ margin-left: 3%;
     align-items: center;
     gap: 3%;
     text-align: center;
-    margin-top: 3%;
-    
+    margin-top: 3%;    
 }
+
 footer a{
     text-decoration: none;
 }
 
 
 
-
 @media (min-width: 1000px) {
 
 
-
 /*CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA*/
-
 
 
 .inicio {
@@ -429,66 +386,49 @@ footer a{
     flex-direction: column;
     justify-content:start;
     align-items: start;
-    gap: 0%;
-   
+    gap: 0%;   
   }
-
 
 .inicio h1{
     max-width: 1100px;
+    font-weight: 600;
 }
-
 
   .sepin{
-    margin:0%;
+    margin: 0%;
     margin-top: 3%;
-    margin-left: 2%;
-    
+    margin-left: 2%;   
 }
-
 
 #titulogrand{
 text-align: left;
-font-size:160%;
-margin-bottom:0 ;
+font-size: 160%;
+margin-bottom: 0;
 padding: 0s;
-
-
-
-
 }
-
 
 #subtitulogrand{
     font-size: 140%;
     max-width: 600px;
     text-align: left;   
-    margin-left:6% ;
-    
+    margin-left: 6%;  
 }
 
-
 .botoninicio {
-    font-size:xx-large;
+    font-size: xx-large;
     padding: 15%;
     font-weight: 400;
-   
   }
-
 
 .conseguir {
     margin-top: 0%;
-    margin-left: 5%;
-    
-     
+    margin-left: 8%;  
   }
-
 
 #separar1{
     height: 5vh;
     width: 100%;
 }
-
 
 .separar{
     margin: 0;
@@ -496,16 +436,15 @@ padding: 0s;
     width: 100%;
 }
 
-
 #separarfin{
-    margin:0;
+    margin: 0;
     height: 5vh;
     width: 100%;
 }
  
 
-
 /*SECCIONES SECCIONES SECCIONES SECCIONES SECCIONES*/
+
 
 .seccion-contenido{
   display: flex;
@@ -524,21 +463,17 @@ padding: 0s;
   gap: 10%;
   }
 
-
 .sizeicon {
     width: 30%;
     margin-left:13%;
   }
 
-
 .tituloseccion {
     font-size: 60px; 
     font-weight: 700; 
     margin: 5%;
-  text-align: left;
-  
+  text-align: left; 
 }
-
 
 .parrafo {
     font-family: "Roboto Slab", serif;
@@ -549,24 +484,18 @@ padding: 0s;
     text-align: left;
 }
 
-
 .carousel-caption{
     height: 35%;
-    font-size: 30px;
-    
+    font-size: 30px;    
 }
-
 
 
 /*FORMULARIO FORMULARIO FORMULARIO FORMULARIO FORMULARIO*/
 
 
-
 #iraform{
-    font-size: 60px;
-   
+    font-size: 60px;  
 }
-
 
 #feedback {
   background-color: #f8f9fa;
@@ -577,26 +506,20 @@ padding: 0s;
   font-size: 30px;
   color: #212529;
   text-align: center;
-  z-index: 1001;
-  
+  z-index: 1001; 
 }
-
 
 #imgcompleto{
     width: 15%;
     margin: 2%;
 }
 
-
 #email{
     width: 500px;
     height: 60px;
     font-size: x-large;
     border-radius: 30px;
-    
-
 }
-
 
 #nombre{
     width: 500px;
@@ -605,12 +528,10 @@ padding: 0s;
     border-radius: 30px;
 }
 
-
 #enviar{
     height: 80px;
     font-size: 50px;
 }
-
 
 #hacerform {
    padding: 5%;
@@ -618,16 +539,13 @@ padding: 0s;
     background-position: center;
   }
 
-
 #hacerform h5{
     font-size: 30px;
 }
 
-
   #verform {
     width: 0%;
   }
-
 
 #volver {
     width: 5%;
@@ -635,13 +553,11 @@ padding: 0s;
   }
 
 
-
 /*FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER*/
 
 
-
   #footitle{
-    width:40%;
+    width: 40%;
   }
 
 footer section {
@@ -666,13 +582,8 @@ footer section {
     width: 30%;
     background-color: white;
     background-size: 20%;
-    border-radius: 50%;
-    
-    
-    
+    border-radius: 50%; 
 }
-
-
 
 footer h6{
     margin-top: 5%;
@@ -686,7 +597,6 @@ color: #ffcf40;
 
 .redessociales{
     color: #d4d4d4;
-
 }
 
 .imgtxt{
@@ -698,15 +608,12 @@ color: #ffcf40;
     margin-top: 3%;
 }
 
-
 footer nav {
     margin-top: 0%;
-    
   }
 
 #final{
     background-color: #14141b;
     height: 10vh;
 }
-
 }
