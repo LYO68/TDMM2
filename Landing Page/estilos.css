@@ -75,6 +75,8 @@ header img{
     margin: 5%;
     display: flex;
     text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
 }
 
 .inicio h1:hover{
