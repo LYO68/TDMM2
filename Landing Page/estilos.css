@@ -301,13 +301,14 @@ color: black;
     width: 100%;
     font-size: x-large;
     border-radius: 30px;
-
+    font-style: italic;
 }
 
 #nombre{
     width: 100%;
     font-size: x-large;
     border-radius: 30px;
+    font-style: italic;
 }
 
 #volver{
@@ -528,11 +529,13 @@ padding: 0s;
     height: 60px;
     font-size: x-large;
     border-radius: 30px;
+    font-style: italic;
 }
 
 #enviar{
     height: 80px;
     font-size: 50px;
+    font-style: italic;
 }
 
 #hacerform {
