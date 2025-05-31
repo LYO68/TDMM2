@@ -29,7 +29,7 @@ header{
 }
 
 header img{
-    height: 60%;    
+    height: 40px;    
 }
 
 
@@ -336,6 +336,7 @@ footer nav{
 }
 
 #footitle{
+    width: 158px;
     margin-top: 15%;
   margin-left: 4%;
 }
@@ -380,6 +381,12 @@ footer a{
 
 
 @media (min-width: 1000px) {
+
+    /*Titulo cinefilos y fondo*/
+
+    header img{
+    height: 55px;    
+}
 
 
 /*CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA CTA*/
@@ -567,7 +574,7 @@ padding: 0s;
 
 
   #footitle{
-    width: 40%;
+    width: 217px;
   }
 
 footer section {
