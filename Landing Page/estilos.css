@@ -302,6 +302,7 @@ color: black;
     font-size: x-large;
     border-radius: 30px;
     font-style: italic;
+    padding-left: 4%;
 }
 
 #nombre{
@@ -309,6 +310,7 @@ color: black;
     font-size: x-large;
     border-radius: 30px;
     font-style: italic;
+    padding-left: 4%;
 }
 
 #volver{
@@ -522,6 +524,8 @@ padding: 0s;
     height: 60px;
     font-size: x-large;
     border-radius: 30px;
+    font-style: italic;
+    padding-left: 4%;
 }
 
 #nombre{
@@ -530,6 +534,7 @@ padding: 0s;
     font-size: x-large;
     border-radius: 30px;
     font-style: italic;
+    padding-left: 4%;
 }
 
 #enviar{
