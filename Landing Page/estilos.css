@@ -340,6 +340,7 @@ color: black;
 
 
 footer{
+    font-family: "Raleway", sans-serif;
     background-color: #14141b;
     background-size: cover;
     height: 70vh;
@@ -354,7 +355,7 @@ footer nav{
 #footitle{
     width: 158px;
     margin-top: 15%;
-  margin-left: 4%;
+    margin-left: 4%;
 }
 
 .footerimg{
@@ -370,15 +371,21 @@ footer h6{
     color: #858585;
     margin-left: 4%;
     margin-right: 4%;
+    font-size: 17px;
+    font-weight: 400;
 }
 
 .seguinos{
 color: #ffcf40;
 margin-left: 3%;
+font-size: 18px;
+font-weight: 700;
 }
 
 .redessociales{
     color: #d4d4d4;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .imgtxt{
@@ -392,6 +399,13 @@ margin-left: 3%;
 
 footer a{
     text-decoration: none;
+}
+
+#final{
+    color: #858585;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 
@@ -636,15 +650,17 @@ footer section {
 footer h6{
     margin-top: 5%;
     color: #858585;
-    font-size: 30px;
+    font-size: 32px;
 }
 
 .seguinos{
 color: #ffcf40;
+font-size: 32px;
 }
 
 .redessociales{
     color: #d4d4d4;
+    font-size: 32px;
 }
 
 .imgtxt{
@@ -663,5 +679,6 @@ footer nav {
 #final{
     background-color: #14141b;
     height: 10vh;
+    font-size: 24px;
 }
 }
