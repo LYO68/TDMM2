@@ -226,7 +226,17 @@ header img{
 }
 
 #iraform{
-    font-family: "Raleway", sans-serif;
+     width: 83%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #ffcf40;
+  color: black;
+  margin-bottom: 4%;
+}
+
+#iraform{
+     font-family: "Raleway", sans-serif;
     background-color: #ffcf40;
     position: initial;
 }
@@ -512,7 +522,17 @@ padding: 0s;
 
 
 #iraform{
-    font-family: "Raleway", sans-serif;
+     width: 54%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #ffcf40;
+  color: black;
+  margin-bottom: 4%;
+}
+
+#iraform{
+     font-family: "Raleway", sans-serif;
     font-size: 60px;  
 }
 
