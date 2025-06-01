@@ -246,6 +246,9 @@ header img{
     text-align: center;
     position: initial;
     margin-top: 3%;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .botonform{
@@ -602,7 +605,7 @@ padding: 0s;
 
 #hacerform h5{
     font-family: "Roboto Slab", serif;
-    font-size: 30px;
+    font-size: 28px;
 }
 
   #verform {
@@ -637,7 +640,6 @@ footer section {
     align-items: start;
     justify-content: start;
     max-width: 500px;
-      
   }
   
 .footerimg{
