@@ -226,11 +226,13 @@ header img{
 }
 
 #iraform{
+    font-family: "Raleway", sans-serif;
     background-color: #ffcf40;
     position: initial;
 }
 
 #hacerform h5{
+    font-family: "Roboto Slab", serif;
     text-align: center;
     position: initial;
     margin-top: 3%;
@@ -510,6 +512,7 @@ padding: 0s;
 
 
 #iraform{
+    font-family: "Raleway", sans-serif;
     font-size: 60px;  
 }
 
@@ -565,6 +568,7 @@ padding: 0s;
   }
 
 #hacerform h5{
+    font-family: "Roboto Slab", serif;
     font-size: 30px;
 }
 
