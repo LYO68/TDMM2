@@ -260,7 +260,6 @@ header img{
     background-color: #ffcf40;
     text-align: center;
     width: 100%;
-    font-size: x-large;
     border-radius: 10px;
     padding: 2%;
 }
@@ -271,6 +270,7 @@ header img{
     background:rgba(0, 0, 0, 0);
     border-style: none;
     font-weight: 600;
+    font-size: 1.1rem;
 }
 
 #enviarboton:hover{
@@ -577,8 +577,7 @@ padding: 0s;
 #enviar{
      font-family: "Raleway", sans-serif;
     height: 80px;
-    font-size: 50px;
-    font-style: italic;
+    font-size: 2rem;
 }
 
 #hacerform {
