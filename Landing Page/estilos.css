@@ -19,7 +19,6 @@ body{
 
 
 header{
-    
     background-color: #14141b;
     display: flex;
     justify-content: center;
@@ -77,6 +76,7 @@ header img{
     text-align: center;
     font-weight: 600;
     font-size: 2rem;
+    border-radius: 0;
 }
 
 .inicio h1:hover{
@@ -87,6 +87,7 @@ header img{
     color: white;
     margin: 5%;
     display: flex;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -121,8 +122,9 @@ header img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 17%;
-    font-weight: 500;    
+    margin-top: 17%;    
+    font-size: 20px;
+    font-weight: 700;
 }
 
 
@@ -268,12 +270,12 @@ header img{
 }
 
 #enviar{
-     font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
     text-align: center;
     background:rgba(0, 0, 0, 0);
     border-style: none;
-    font-weight: 600;
-    font-size: 1.1rem;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 #enviarboton:hover{
@@ -286,7 +288,7 @@ color: black;
 }
 
 #feedback {
-    font-family: "Raleway", sans-serif;
+     font-family: "Raleway", sans-serif;
   background-color: #f8f9fa;
   box-shadow: #212529;
   padding: 20px;
@@ -454,8 +456,12 @@ footer a{
     font-weight: 600;
 }
 
+.inicio h2{
+     font-weight: 600;
+     font-size: 2.2rem;
+     margin-top: 0%;
+}
   .sepin{
-    margin: 0%;
     margin-top: 3%;
     margin-left: 2%;   
 }
@@ -477,12 +483,12 @@ padding: 0s;
 .botoninicio {
     font-size: xx-large;
     padding: 15%;
-    font-weight: 400;
   }
 
 .conseguir {
     margin-top: 0%;
     margin-left: 8%;  
+    font-size: 36px;
   }
 
 #separar1{
@@ -552,7 +558,6 @@ padding: 0s;
 
 /*FORMULARIO FORMULARIO FORMULARIO FORMULARIO FORMULARIO*/
 
-
 #iraform{
      width: 54%;
   text-align: center;
@@ -609,11 +614,11 @@ padding: 0s;
 input::placeholder{
     font-size: 20px;
 }
-    
+
 #enviar{
-     font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
     height: 80px;
-    font-size: 2rem;
+    font-size: 36px;
 }
 
 #hacerform {
@@ -659,6 +664,7 @@ footer section {
     align-items: start;
     justify-content: start;
     max-width: 500px;
+      
   }
   
 .footerimg{
