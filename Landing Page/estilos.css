@@ -315,21 +315,36 @@ color: black;
 }
 
 #email{
-    font-family: "Roboto Slab", serif;
+    font-family: "Raleway", sans-serif;
     width: 100%;
-    font-size: x-large;
+    font-size: 16px;
     border-radius: 30px;
-    font-style: italic;
+    font-style: normal;
     padding-left: 4%;
+    color: black;
+    font-weight: 400;
 }
 
 #nombre{
-    font-family: "Roboto Slab", serif;
+    font-family: "Raleway", sans-serif;
     width: 100%;
-    font-size: x-large;
+    font-size: 16px;
+    border-radius: 30px;
+    font-style: normal;
+    padding-left: 4%;
+    color: black;
+    font-weight: 400;
+}
+
+input::placeholder{
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    font-size: 16px;
     border-radius: 30px;
     font-style: italic;
     padding-left: 4%;
+    color: black;
+    font-weight: 200;
 }
 
 #volver{
@@ -572,25 +587,29 @@ padding: 0s;
 }
 
 #email{
-    font-family: "Roboto Slab", serif;
+    font-family: "Raleway", sans-serif;
     width: 500px;
     height: 60px;
-    font-size: x-large;
+    font-size: 20px;
     border-radius: 30px;
-    font-style: italic;
+    font-style: normal;
     padding-left: 4%;
 }
 
 #nombre{
-    font-family: "Roboto Slab", serif;
+    font-family: "Raleway", sans-serif;
     width: 500px;
     height: 60px;
-    font-size: x-large;
+    font-size: 20px;
     border-radius: 30px;
-    font-style: italic;
+    font-style: normal;
     padding-left: 4%;
 }
 
+input::placeholder{
+    font-size: 20px;
+}
+    
 #enviar{
      font-family: "Raleway", sans-serif;
     height: 80px;
